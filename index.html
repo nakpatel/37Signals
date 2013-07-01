@@ -9,68 +9,67 @@
 </head>
 <body>
 	<!--Top Navigation-->
-	<nav>
-		<ul>
-			<li class="nav-date">What Day Is It Again?</li>
-			<div class="nav-right">
-				<li class="nav-other"><a href="#">Company Blog</a></li>
-				<li class="nav-other"><a href="#">Our Story</a></li>
-				<li class="nav-other"><a href="#">Follow us on Twitter</a></li>
-				<li class="nav-other"><a href="#">System Status</a></li>
-				<li class="nav-signin"><a href="#">Sign In</a></li>
-			</div>
-	</nav>
-	<!--Main Content Container-->
-	<div class="container">
-		<img src="images/logo.png" alt="37 Signals"/>
-			<div class="banner">
-				<h1>Making collaboration productive and enjoyable for people every day.</h1>
-				<h2>Frustration free web-based apps for collaboration, sharing information, and making decisions</h2>
-			</div>
-			<div class="bc-banner">
-				<a href="http://www.basecamp.com">
-				<h1 class="alt-head"><span><a class="alt-name" href="http://www.basecamp.com/">Basecamp</a></span> is the project management tool you wish you had on your last project</h1>
-				<h3 class="alt-description">Are you still managing projects with email?  Are you still using Excel for your to-do lists? It's time to upgrade to Basecamp.  Manage projects and collaborate with your team and clients the modern way</h3>
+	<div class="wrapper">
+		<nav>
+			<ul>
+				<li class="nav-date">What Day Is It Again?</li>
+				<li><a href="#">Company Blog</a></li>
+				<li><a href="#">Our Story</a></li>
+				<li><a href="#">Follow us on Twitter</a></li>
+				<li><a href="#">System Status</a></li>
+				<li class="signin"><a href="#">Sign In</a></li>
+			</ul>
+		</nav>
+		<!--Main Content Container-->
+		<div class="content">
+			<img src="images/logo.png" alt="37 Signals"/ id="logo">
+				<div class="banner">
+					<h1>Making collaboration productive and enjoyable for people every day.</h1>
+					<h2>Frustration free web-based apps for collaboration, sharing information, and making decisions</h2>
+				</div>
+				<div class="bc-banner">
+					<h1 class="alt-head"><span><a class="alt-name" href="http://www.basecamp.com/">Basecamp</a></span> is the project management tool you wish you had on your last project</h1>
+					<h3 class="alt-description">Are you still managing projects with email?  Are you still using Excel for your to-do lists? 
+				</div>
+				<div class="hr-banner">
+					<h1 class="alt-head"><span> <a class="alt-name" href="#">Highrise</a></span> remembers the important things about people you'd normally forget</h1>
+					<h3 class="alt-description">Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h3>
+				</div>
+				<div class="cf-banner">
+					<h1 class="alt-head">From near or far, <span><a class="alt-name" href="#">Campfire</a></span> helps teams work together over the web in real-time.</h1>
+					<h3 class="alt-description">Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It's game changing. We couldn't run our own business without Campfire.</h3>
+				</div>
+				<div class="products">
+				<a href="#">
+					<div class="box-bc">
+						<img class="boxarrowleft" src="images/arrow-left.png"/>
+						<img src="images/logo-bc.png"/>
+						<h4>Basecamp</h4>
+						<h6>Manage Projects</h6>
+						<p>Used by millions for project management</p>
+					</div>
 				</a>
-			</div>
-			<div class="hr-banner">
-				<h1 class="alt-head"><span> <a class="alt-name" href="#">Highrise</a></span> remembers the important things about people you'd normally forget</h1>
-				<h3 class="alt-description">Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h3>
-			</div>
-			<div class="cf-banner">
-				<h1 class="alt-head">From near or far, <span><a class="alt-name" href="#">Campfire</a></span> helps teams work together over the web in real-time.</h1>
-				<h3 class="alt-description">Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It's game changing. We couldn't run our own business without Campfire.</h3>
-			</div>
-			<div class="products">
-			<a href="#">
-				<div class="box-bc">
-					<img class="boxarrowleft" src="images/arrow-left.png"/>
-					<img src="images/logo-bc.png"/>
-					<h4>Basecamp</h4>
-					<h6>Manage Projects</h6>
-					<p>Used by millions for project management</p>
+				<a href="#">
+					<div class="box-hr">
+						<img class="boxarrowleft" src="images/arrow-left.png"/>
+						<img src="images/logo-hr.png"/>
+						<h4>Highrise</h4>
+						<h6>Manage Contacts</h6>
+						<p>Know the people you do business with.</p>
+					</div>
+				</a>
+				<a href="#">
+					<div class="box-cf">
+						<img class="boxarrowright" src="images/arrow-right.png"/>
+						<img src="images/logo-cf.png"/>
+						<h4>Campfire</h4>
+						<h6>Work In Real-Time</h6>
+						<p>Group chat rooms for your business</p>
+					</div>
+				</a>
 				</div>
-			</a>
-			<a href="#">
-				<div class="box-hr">
-					<img class="boxarrowleft" src="images/arrow-left.png"/>
-					<img src="images/logo-hr.png"/>
-					<h4>Highrise</h4>
-					<h6>Manage Contacts</h6>
-					<p>Know the people you do business with.</p>
-				</div>
-			</a>
-			<a href="#">
-				<div class="box-cf">
-					<img class="boxarrowright" src="images/arrow-right.png"/>
-					<img src="images/logo-cf.png"/>
-					<h4>Campfire</h4>
-					<h6>Work In Real-Time</h6>
-					<p>Group chat rooms for your business</p>
-				</div>
-			</a>
-			</div>
-		<footer><img src="images/sectionbreak.png"/></footer> 
+			<footer><img src="images/sectionbreak.png"/></footer> 
+		</div>
 	</div>
 </body>
 </html>
